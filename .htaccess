@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.lamento.live [NC]
+RewriteRule ^(.*)$ https://lamento.live [L,R=301]
